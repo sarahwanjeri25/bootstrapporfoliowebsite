@@ -52,7 +52,33 @@
 
    </header>
 
-
+   h1slide{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px; 
+    border-radius:50px ;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1e2333;
+    color: #19273a;
+    transition: all 0.7s;
+    font-size: 20px;
+    font-weight: bold;
+    left: 59px;
+}
+.h1slide:hover{
+    opacity: 1;
+    background-color: #1e2333;
+}
+.h1slide::before{
+    content: '<';
+}
+.h1slide::after{
+    content: '>';
+}
 
 
 
